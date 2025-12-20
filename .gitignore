@@ -1,0 +1,10 @@
+node_modules/
+dist/
+test-fapshi-package/
+npm-deployment.md
+*.log
+.DS_Store
+.env
+.env.local
+*.tsbuildinfo
+

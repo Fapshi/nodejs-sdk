@@ -1,0 +1,15 @@
+src/
+tsconfig.json
+.gitignore
+*.log
+.DS_Store
+.env
+.env.local
+*.tsbuildinfo
+node_modules/
+*.md
+!README.md
+npm-deployment.md
+test-fapshi-package/
+test-summary.md
+test-api.js

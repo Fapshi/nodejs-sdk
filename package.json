@@ -1,0 +1,44 @@
+{
+  "name": "@fapshi/payments",
+  "version": "1.0.0",
+  "description": "Official Fapshi Payment API SDK for Node.js and TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fapshi",
+    "payment",
+    "mobile-money",
+    "orange-money",
+    "payout",
+    "payment-gateway",
+    "cameroon"
+  ],
+  "author": "Fapshi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fapshi/nodejs-sdk.git"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/node-fetch": "^2.6.7",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
+
