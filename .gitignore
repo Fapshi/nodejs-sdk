@@ -7,4 +7,5 @@ npm-deployment.md
 .env
 .env.local
 *.tsbuildinfo
+DEPLOYMENT.md
 

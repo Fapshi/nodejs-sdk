@@ -10,6 +10,7 @@ node_modules/
 *.md
 !README.md
 npm-deployment.md
+DEPLOYMENT.md
 test-fapshi-package/
 test-summary.md
 test-api.js
